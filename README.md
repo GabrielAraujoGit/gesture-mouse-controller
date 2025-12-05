@@ -1,13 +1,15 @@
 # Gesture Mouse Controller
 
-[![Python](https://img.shields.io/badge/Python-3.10+-blue?logo=python&logoColor=white)](#)
-[![OpenCV](https://img.shields.io/badge/OpenCV-4.7-blue?logo=opencv&logoColor=white)](#)
-[![PyAutoGUI](https://img.shields.io/badge/PyAutoGUI-0.9.53-lightgrey)](#)
-[![Version](https://img.shields.io/badge/Version-0.2-green)](#)
-[![Status](https://img.shields.io/badge/Status-Experimental-orange)](#)
-[![License](https://img.shields.io/badge/License-OpenSource-lightgrey)](#)
-[![Author](https://img.shields.io/badge/Author-Gabriel_Araujo-blueviolet)](#)
-[![Last Update](https://img.shields.io/badge/Updated-Oct_2025-lightgrey)](#)
+<p align="left">
+  <img src="https://img.shields.io/badge/Python-3.10+-blue?style=for-the-badge&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-4.7-blue?style=for-the-badge&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/PyAutoGUI-0.9.53-lightgrey?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Version-0.2-green?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Status-Experimental-orange?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/License-OpenSource-lightgrey?style=for-the-badge&logo=github&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Author-Gabriel_Araujo-blueviolet?style=for-the-badge"/>
+  <img src="https://img.shields.io/badge/Updated-Oct_2025-lightgrey?style=for-the-badge"/>
+</p>
 
 ---
 
