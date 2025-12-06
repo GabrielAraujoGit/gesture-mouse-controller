@@ -79,3 +79,5 @@ GESTURE-MOUSE-CONTROLLER/
 
 ## 📄 Licença
 
+Distribuído sob a licença APACHE 2.0. Consulte o arquivo [APACHE](LICENSE). para mais
+detalhes.
