@@ -79,10 +79,3 @@ GESTURE-MOUSE-CONTROLLER/
 
 ## 📄 Licença
 
-Projeto de código aberto para estudo e experimentação.  
-Feito com 🧠 por **Gabriel Araújo**.
-
----
-
-> 💡 *“Caro eu do futuro: se você está aqui, é porque temos problemas.  
-> Felizmente, deixei algo pronto para ajudar.”*
