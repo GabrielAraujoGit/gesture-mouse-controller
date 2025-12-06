@@ -1,18 +1,3 @@
-# main_robusto.py
-# Requisitos: opencv, numpy, pyautogui, mediapipe (tasks API)
-# Ex.: pip install opencv-python numpy pyautogui mediapipe
-#
-# Suporte: movimento com indicador, pinch (indicador+polegar) = click/arrastar,
-# pinch rápido = duplo clique, two-finger (indice+medio) = modo scroll,
-# two-finger pinch = clique direito, 3 dedos = middle click,
-# 5 dedos = abrir menu iniciar (Windows). Teclas:
-#   ESC = sair
-#   p   = pausar/resumir detecção
-#   c   = recalibrar (central region)
-#   + / - = ajustar sensibilidade
-#
-# Ajuste as constantes no bloco CONFIG conforme preferir.
-
 import cv2
 import numpy as np
 import pyautogui
@@ -22,7 +7,6 @@ from mediapipe.tasks import python
 from mediapipe.tasks.python import vision
 from mediapipe import Image, ImageFormat
 
-# === CONFIGURAÇÕES ===
 DEBUG = False
 SMOOTHING_FRAMES = 6
 CLICK_DIST = 35          # distancia (px) para considerar pinch = click
@@ -311,7 +295,7 @@ while True:
         # recalibra com centro da tela atual do cursor (usuário posiciona a mão no centro do frame e pressiona c)
         recalibrate(0, 0)  # aqui usamos 0/0 pois já mapearmos absoluto; mantive placeholder
     elif key == ord('+') or key == ord('='):
-        sensitivity += 0.1
+        sensitivity += 0.3
         print(f"🔧 Sensibilidade: {sensitivity:.2f}")
     elif key == ord('-') or key == ord('_'):
         sensitivity = max(0.3, sensitivity - 0.1)
