@@ -8,7 +8,7 @@ from mediapipe.tasks.python import vision
 from mediapipe import Image, ImageFormat
 
 
-DEBUG = False
+DEBUG = True
 SMOOTHING_FRAMES = 6
 CLICK_DIST = 35          # distancia (px) para considerar pinch = click
 RELEASE_DIST = 55        # distancia para soltar clique
